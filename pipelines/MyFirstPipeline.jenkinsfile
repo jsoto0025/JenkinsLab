@@ -5,8 +5,7 @@ pipeline {
             steps {
                 echo 'My first jenkins pipeline in SCM' 
                 powershell label: 'PowerShell 1', script: 'Write-Host "Que mas parce con PowerShell!!!!"'
-                powershell 
-                    label: 'powerShell 2', 
+                powershell label: 'powerShell 2', 
                     script: 
                         'Write-Host "Que mas parce con PowerShell 1 !!!!"' +
                         'Write-Host "Que mas parce con PowerShell 2 !!!!"' +
