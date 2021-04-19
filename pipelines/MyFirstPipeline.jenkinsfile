@@ -8,8 +8,8 @@ pipeline {
                 powershell 
                     label: 'powerShell 2', 
                     script: 
-                        'Write-Host "Que mas parce con PowerShell 1 !!!!"'
-                        'Write-Host "Que mas parce con PowerShell 2 !!!!"'
+                        'Write-Host "Que mas parce con PowerShell 1 !!!!"' +
+                        'Write-Host "Que mas parce con PowerShell 2 !!!!"' +
                         'Write-Host "Que mas parce con PowerShell 3!!!!"'
             }
         }
